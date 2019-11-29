@@ -1,22 +1,26 @@
-.App {
-  text-align: center;
-}
+@import '~antd/dist/antd.css';
 
-.App-logo {
-  height: 40vmin;
+html,
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#root{
+  height: 100%;
 }
-
-.App-link {
-  color: #09d3ac;
+.ant-layout{
+  min-height: 100%;
+}
+.ant-layout-content{
+  padding: 10px;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  float: left;
+  .app-logo{
+    max-width: 50px;
+    max-height: 50px;
+  }
 }
